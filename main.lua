@@ -20,8 +20,8 @@ local zeroWidth = loadModule("zero_width.lua")
 local unicodeObf = loadModule("unicode_obf.lua")
 local antiSpam = loadModule("anti_spam.lua")
 
-local CONFIG_URL = BASE_URL .. "config.json"
-local EXTRA_URL = BASE_URL .. "extra_symbols.json"
+local CONFIG_URL = BASE_URL .https://github.com/kluyzhev031010-byte/Newrolokis/blob/main/config.json. "config.json"
+local EXTRA_URL = BASE_URL .https://github.com/kluyzhev031010-byte/Newrolokis/blob/main/extra_symbols.json. "extra_symbols.json"
 
 local function fetchConfig(url)
     local success, data = pcall(function() return HttpService:GetAsync(url) end)
